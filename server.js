@@ -11,7 +11,7 @@ app.use(express.static(path.join(__dirname, '/frontend/build')));
 // })
 
 app.get('/names', (req, res) => {
-  res.send("Telmo");
+  res.send("Sampaio");
 })
 
 app.listen(port, () => {
